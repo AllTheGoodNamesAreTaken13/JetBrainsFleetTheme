@@ -114,15 +114,15 @@
     "interline.editor.currentLine.fill": "363445",
     "interline.editor.currentLine.@focused.fill": "363445",
 
-	  "editor.fill": "192042",
-    "editor.text": "ffffff",
-	  "editor.braceHighlight.fill": "6433ca",
-    "editor.caret.fill": "White",
+	  "editor.fill": "1d233e",
+	  "editor.text": "00e8d8",
+	  "editor.braceHighlight.fill": "5029a2",
+    "editor.caret.fill": "f2f3f4",
 	  "editor.currentLine.fill": "23324d",
 	  "editor.currentLine.@focused.fill": "23324d",
-	  "editor.lineNumber.text": "898893",
-    "editor.lineNumber.@selected.text": "9A99A3",
-	  "editor.whitespace.text": "787784",
+	  "editor.lineNumber.text": "aeadb5",
+    "editor.lineNumber.@selected.text": "f7f7f7",
+	  "editor.whitespace.text": "696969",
 
     "header.fill": "2C2C3B",
 
@@ -263,11 +263,11 @@
         "layer": 2000
     },
     "editor.text.scheme": {
-        "fgColor": "FFFFFF"
+		"fgColor": "00e8d8",
     },
     "editor.text.composable": {
         "decoration": {
-            "color": "Gray"
+			"color": "00e8d8"
         }
     },
     "editor.search.results": {
@@ -290,8 +290,11 @@
         }
     },
     "comment": {
-		"fgColor": "fb022e",
-        "layer": 5
+		"fgColor": "fc89ac",
+        "layer": 5,
+		"fontModifier": {
+			"italic": true
+		}
     },
     "comment.parameter": {
         "fgColor": "5A6E5A",
@@ -317,161 +320,178 @@
         }
     },
     "keyword": {
-		"fgColor": "0ceef5",
+		"fgColor": "ff8927",
         "layer": 20,
-
     },
     "keyword.typeModifier": {
         "fgColor": "Orange",
         "layer": 20
     },
     "metadata": {
-        "fgColor": "85A658",
+		"fgColor": "85a658",
         "layer": 25
     },
     "number": {
-        "fgColor": "eef50c",
-        "layer": 10
+		"fgColor": "d5c043",
+        "layer": 10,
+		"fontModifier": {
+			"bold": true
+		}
     },
     "boolean": {
-        "fgColor": "02aafb",
-        "layer": 10
+		"fgColor": "93aef8",
+        "layer": 10,
+		"fontModifier": {
+			"bold": true,
+			"italic": true
+		}
     },
     "string": {
-		"fgColor": "02fb53",
-        "layer": 15
+		"fgColor": "2fce49",
+        "layer": 15,
     },
     "string.binary": {
-		"fgColor": "75c261",
-        "layer": 15
+		"fgColor": "3bc472",
+        "layer": 15,
     },
     "string.escape": {
-		"fgColor": "75c261",
-        "layer": 25
+		"fgColor": "3bc472",
+        "layer": 25,
     },
     "string.escape.alternative": {
-        "fgColor": "Orange",
+		"fgColor": "3fff00",
         "layer": 25
     },
     "string.formatItem": {
-        "fgColor": "Orange",
+		"fgColor": "77dd77",
         "layer": 25
     },
     "string.regexp": {
-        "fgColor": "94F73D",
+		"fgColor": "ffda0f",
         "layer": 25
     },
     "identifier": {
-        "fgColor": "Gray",
-        "layer": 10
+		"fgColor": "00e8d8",
+        "layer": 10,
     },
     "identifier.this": {
-        "fgColor": "8888C6",
-        "layer": 20
+		"fgColor": "0e4bef",
+        "layer": 20,
+		"fontModifier": {
+	"bold": true
+}
     },
     "identifier.this.mutable": {
-        "fgColor": "8888C6",
+		"fgColor": "fd70ff",
         "layer": 20,
-        "decoration": {
-            "color": "8888C6"
-        }
+		"fontModifier": {
+	"bold": true
+}
     },
     "identifier.underCaret": {
         "bgColor": "113623",
         "stripeColor": "268053",
         "layer": 1000
     },
+
     "identifier.constant": {
-        "fgColor": "Violet",
-        "layer": 20
+		"fgColor": "ff444d",
+        "layer": 20,
+		"fontModifier": {
+	"bold": true
+}
     },
     "identifier.constant.predefined": {
-        "fgColor": "ff4c00",
+		"fgColor": "4877f4",
         "layer": 20
-    },
+	},
+
     "identifier.variable.local": {
-		"fgColor": "d002fb",
-        "layer": 20
-    },
-    "identifier.variable.local.reassigned": {
-        "fgColor": "Gray",
+		"fgColor": "4877f4",
         "layer": 20,
-        "decoration": {
-            "color": "A6A6A6"
-        }
     },
+
+    "identifier.variable.local.reassigned": {
+		"fgColor": "009dff",
+        "layer": 20,
+    },
+
     "identifier.parameter": {
-        "fgColor": "Gray",
-        "layer": 20
+		"fgColor": "55e0ff",
+        "layer": 20,
     },
+
     "identifier.function.declaration": {
-		"fgColor": "ff8c00",
-        "layer": 20
+		"fgColor": "e8005b",
+        "layer": 20,
+		"fontModifier": {
+	"italic": true,
+			"bold": true,
+}
     },
+
     "identifier.function.declaration.js": {
-        "fgColor": "FFC66D",
+		"fgColor": "d87ac6",
         "layer": 20
     },
     "identifier.function.call": {
-		"fgColor": "ff8c00",
-        "layer": 20
+		"fgColor": "ff00ff",
+        "layer": 20,
     },
     "identifier.function.call.js": {
-        "fgColor": "FFC66D",
+		"fgColor": "f39998",
         "layer": 20
     },
     "identifier.function.call.suspend": {
-        "fgColor": "Gray",
+		"fgColor": "d87ac6",
         "layer": 20
     },
     "identifier.function.call.package": {
-        "fgColor": "Gray",
+		"fgColor": "f31582",
         "layer": 20
     },
     "identifier.method.static": {
         "fgColor": "Gray",
         "layer": 20,
-        "fontModifier": {
-            "italic": true
-        }
     },
     "identifier.type": {
         "fgColor": "Gray",
         "layer": 20
     },
     "identifier.field": {
-        "fgColor": "Violet",
+		"fgColor": "d2a8d4",
         "layer": 20
     },
     "identifier.field.static": {
-        "fgColor": "Violet",
+		"fgColor": "d2a8d4",
         "layer": 20,
-        "fontModifier": {
-            "italic": true
-        }
     },
     "identifier.interface": {
-        "fgColor": "Gray",
+		"fgColor": "d151ff",
         "layer": 20
     },
     "identifier.type.class": {
-        "fgColor": "Gray",
-        "layer": 20
+		"fgColor": "f2003c",
+        "layer": 20,
+		"fontModifier": {
+	"bold": true
+}
+
     },
     "identifier.type.enum": {
-        "fgColor": "Gray",
+		"fgColor": "e7a5ff",
         "layer": 20
     },
     "identifier.type.struct": {
-        "fgColor": "Gray",
+		"fgColor": "e7a5ff",
         "layer": 20
     },
     "identifier.type.valueType": {
-        "fgColor": "Violet",
+		"fgColor": "f1a7fe",
         "layer": 20
     },
     "identifier.typeParameter": {
-        "fgColor": "37CCCC",
+		"fgColor": "cc99ff",
         "layer": 20
     },
     "identifier.namedArgument": {
@@ -592,7 +612,7 @@
     },
 
     "punctuation.css": {
-		"fgColor": "fb02aa",
+		"fgColor": "f44865",
         "layer": 20
     },
 
@@ -664,11 +684,15 @@
         }
     },
     "punctuation": {
-		"fgColor": "fe4cc4",
-        "layer": 20
+		"fgColor": "f44865",
+        "layer": 20,
+		"fontModifier": {
+	"bold": true
+}
     },
+
     "punctuation.operator": {
-		"fgColor": "ff3300",
+		"fgColor": "f44865",
         "layer": 20
     },
     "snippet": {
@@ -784,7 +808,7 @@
         "layer": 60
     },
     "problem.warning.weak": {
-        "stripeColor": "756D56",
+		"stripeColor": "",
         "layer": 40,
         "decoration": {
             "color": "B39500",
@@ -874,3 +898,4 @@
     "Transparent": "ffffff0%"
   }
 }
+
